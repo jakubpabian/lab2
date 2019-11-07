@@ -1,11 +1,3 @@
-const _ = require('lodash');
-
-const array =[1,2,3,4,5];
-
-function getAvg(array){
-    return _.mean(array);
-}
-
-console.log(getAvg(array));
-
-
+const _= require('lodash');
+let mailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+// importujemy biblioteke lodash nastepnie tworzymy stałą mail regex do filtrowania adresów mail
